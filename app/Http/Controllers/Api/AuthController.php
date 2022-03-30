@@ -36,7 +36,7 @@ class AuthController extends Controller
     public function login(LoginRequest $request)
     {
         $data = $request->all();
-        if (!Auth::attempt($data)) {
+        if (Auth::attempt($data)) {
             return response()->json([
                 'message' => 'Данные не совпадают'
             ], 401);

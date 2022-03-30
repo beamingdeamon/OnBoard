@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\CompanyPageController;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\VerificationController;
 use App\Http\Controllers\Api\Admin\UsersController;
@@ -30,6 +31,8 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::get('/email/verify/{id}', [VerificationController::class, 'verify'])->name('verification.verify');
 Route::post('/email/resend', [VerificationController::class, 'resend'])->name('verification.resend');
 Route::get('/me', [HomeController::class, 'me'])->name('me')->middleware('auth:sanctum');
+Route::get('/company/getinfo', [CompanyPageController::class, 'getCompanyInfo']);
+
 
 Route::group(['prefix' => 'v1/admin','as' => 'api.','namespace' => 'Api\V1\Admin','middleware' => ['auth:sanctum']], function () {
     Route::group(['prefix'=>'/users'],function () {
