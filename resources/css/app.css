@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+    font-family: "Inter", sans-serif;
+    color: #191b1d;
+}
+
+.page-content {
+    padding: 33px 20px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: all 0.5s ease;
+    transform: translateX(-100px);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    transform: translateX(100px);
+    opacity: 0;
+}
+.vue-universal-modal {
+    z-index: 99999;
+}
+
+.vue-universal-modal-enter-from .modal,
+.vue-universal-modal-enter-to .modal,
+.vue-universal-modal-leave-from .modal,
+.vue-universal-modal-leave-to .modal {
+    transition: 0.3s transform;
+}
+.vue-universal-modal-enter-to .modal,
+.vue-universal-modal-leave-from .modal {
+    transform: translate3d(0, 0, 0);
+}
+.vue-universal-modal-enter-from .modal,
+.vue-universal-modal-leave-to .modal {
+    transform: translate3d(0, 50px, 0);
+}

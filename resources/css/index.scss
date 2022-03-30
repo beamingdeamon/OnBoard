@@ -1,0 +1,187 @@
+.el-tabs__active-bar {
+    background-color: #7f43ff;
+}
+.el-tabs__item.is-active {
+    color: #191b1d;
+}
+.el-tabs__item {
+    color: #6d767e;
+}
+.el-tabs__item:hover {
+    color: #191b1d;
+}
+.el-form--large.el-form--label-top .el-form-item .el-form-item__label {
+    margin-bottom: 5px;
+    color: #191b1d;
+    font-size: 13px;
+    line-height: 15px;
+}
+.el-input__inner {
+    color: #191b1d;
+    font-size: 13px;
+    height: 37px;
+    line-height: 37px;
+    border: 1.5px solid #c4d1d9;
+    box-shadow: none;
+    transition: 0.3s ease-in;
+}
+.el-input__inner:focus {
+    outline: none;
+    border: 1.5px solid #6d767e;
+    box-shadow: none;
+    transition: 0.3s ease-in;
+}
+.el-input__inner:hover {
+    outline: none;
+    box-shadow: none;
+}
+.el-select .el-input.is-focus .el-input__inner {
+    box-shadow: none !important;
+}
+.el-select .el-input__inner:focus {
+    box-shadow: none !important;
+}
+.el-avatar > img {
+    width: 100% !important;
+}
+.el-button {
+    height: 37px;
+    padding: 10px 20px;
+    font-size: 12.5px;
+    border-radius: 10px !important;
+    font-weight: 400;
+}
+.el-button--text {
+    padding: 0;
+}
+.vgt-table thead th,
+.vgt-table th.vgt-checkbox-col {
+    background: #dbe4eb;
+    font-weight: 400;
+    color: #191b1d;
+    font-size: 14px;
+}
+.vgt-table th.line-numbers,
+.vgt-wrap__footer {
+    background: #fff;
+    font-weight: 400;
+    font-size: 13px;
+}
+.vgt-responsive {
+    border-radius: 10px 10px 0px 0;
+}
+.vgt-table thead tr:nth-child(2) {
+    display: none;
+}
+.vgt-table thead tr:nth-child(1) th {
+    background: #dbe4eb;
+}
+.vgt-wrap__footer {
+    border-top: none;
+    border: none;
+    padding: 10px;
+}
+.vgt-inner-wrap {
+    box-shadow: none;
+}
+.vgt-table th.sortable button:after {
+    border-bottom: 5px solid #191b1d;
+}
+.vgt-table th.sortable button:before {
+    border-top: 5px solid #191b1d;
+}
+.vgt-table thead th.sorting-desc button:before {
+    border-top: 5px solid #7734fc;
+}
+.vgt-table thead th.sorting-asc button:after {
+    border-bottom: 5px solid #7734fc;
+}
+table.vgt-table td {
+    color: #191b1d;
+    font-size: 13px;
+}
+.vgt-wrap__footer .footer__row-count__label {
+    color: #191b1d;
+    font-size: 12px !important;
+}
+.vgt-wrap__footer .footer__row-count__select {
+    font-size: 12px;
+    color: #191b1d;
+}
+.vgt-wrap__footer .footer__row-count::after {
+    right: 6px;
+    border-top: 4px solid #606266;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    margin-top: 0;
+}
+.vgt-wrap__footer .footer__navigation__page-info__current-entry {
+    font-size: 13px;
+    border: 1px solid #c4d1d9;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 42px;
+    height: 35px;
+    font-weight: 400;
+    color: #191b1d;
+}
+.page-info__label {
+    font-size: 13px;
+    color: #191b1d;
+}
+.vgt-wrap__footer .footer__navigation > button:first-of-type {
+    border-radius: 3px 0px 0px 3px;
+}
+.vgt-wrap__footer .footer__navigation > button:last-of-type {
+    border-radius: 0px 3px 3px 0px;
+}
+.vgt-wrap__footer .footer__navigation__page-btn {
+    background: #7f43ff;
+    width: 36px;
+    height: 36px;
+}
+.vgt-wrap__footer .footer__navigation__page-btn.disabled,
+.vgt-wrap__footer .footer__navigation__page-btn.disabled:hover {
+    background: #f0f4f7;
+}
+.vgt-wrap__footer .footer__navigation__page-btn .chevron.left::after {
+    border-right: 6px solid #fff;
+}
+.vgt-wrap__footer .footer__navigation__page-btn.disabled .chevron.left:after,
+.vgt-wrap__footer
+    .footer__navigation__page-btn.disabled:hover
+    .chevron.left:after {
+    border-right: 6px solid #c4d1d9;
+}
+.vgt-wrap__footer .footer__navigation__page-btn .chevron.right::after {
+    border-left: 6px solid #fff;
+}
+.vgt-wrap__footer .footer__navigation__page-btn.disabled .chevron.right:after,
+.vgt-wrap__footer
+    .footer__navigation__page-btn.disabled:hover
+    .chevron.right:after {
+    border-left: 6px solid #c4d1d9;
+}
+.vgt-wrap__footer .footer__navigation > button:first-of-type {
+    margin-right: 0;
+}
+.edit-buttons {
+    display: flex;
+    justify-content: center;
+}
+.el-drawer__header {
+    background: #ffffff;
+    padding: 0 20px;
+    box-shadow: 0px 5px 35px rgba(17, 17, 17, 0.1);
+    margin-bottom: 0;
+}
+.user-info {
+    .el-drawer__body {
+        padding: 0;
+    }
+}
+.user-tabs {
+    .el-tabs__nav {
+        padding: 0 20px;
+    }
+}
