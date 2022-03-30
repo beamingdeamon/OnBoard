@@ -20,7 +20,7 @@ class AuthController extends Controller
         $data = $request->all();
         $user = User::create($data);
 //        $user->sendEmailVerificationNotification();
-        $user->roles()->sync(2);
+        $user->roles()->sync(5);
 
         $data['user_id']    =   $user->id;
         $company = Company::create($data);

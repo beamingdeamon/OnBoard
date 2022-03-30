@@ -34,6 +34,7 @@ import isAdmin from "./middleware/isAdmin";
 import isManager from "./middleware/isManager";
 import isHrd from "./middleware/isHrd";
 import middlewarePipeline from "./middlewarePipeline";
+import CompanyPage from  "../pages/CompanyPage.vue"
 
 const routes = [
     {
@@ -48,6 +49,11 @@ const routes = [
                 component: Main,
             },
         ],
+    },{
+        path: "/company/:id",
+        name: "company",
+        component: CompanyPage,
+
     },
 
     {
